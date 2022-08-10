@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F835CA41289D7DEE004DFA4A /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835CA40289D7DEE004DFA4A /* TabBarConfigurator.swift */; };
 		F85B7E7D289AB95300C240FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B7E7C289AB95300C240FF /* AppDelegate.swift */; };
-		F85B7E7F289AB95300C240FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B7E7E289AB95300C240FF /* SceneDelegate.swift */; };
-		F85B7E81289AB95300C240FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B7E80289AB95300C240FF /* ViewController.swift */; };
-		F85B7E84289AB95300C240FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85B7E82289AB95300C240FF /* Main.storyboard */; };
-		F85B7E87289AB95300C240FF /* photoGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F85B7E85289AB95300C240FF /* photoGallery.xcdatamodeld */; };
 		F85B7E89289AB95400C240FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85B7E88289AB95400C240FF /* Assets.xcassets */; };
 		F85B7E8C289AB95400C240FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85B7E8A289AB95400C240FF /* LaunchScreen.storyboard */; };
+		F8A86DC4289D775A008A52CD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A86DC2289D775A008A52CD /* MainViewController.swift */; };
+		F8A86DC5289D775A008A52CD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A86DC3289D775A008A52CD /* MainViewController.xib */; };
+		F8A86DC8289D7783008A52CD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A86DC6289D7783008A52CD /* ProfileViewController.swift */; };
+		F8A86DC9289D7783008A52CD /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A86DC7289D7783008A52CD /* ProfileViewController.xib */; };
+		F8A86DD0289D7A01008A52CD /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A86DCE289D7A01008A52CD /* FavoriteViewController.swift */; };
+		F8A86DD1289D7A01008A52CD /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A86DCF289D7A01008A52CD /* FavoriteViewController.xib */; };
+		F8A86DD5289D7ACE008A52CD /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A86DD4289D7ACE008A52CD /* TabBarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F835CA40289D7DEE004DFA4A /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
 		F85B7E79289AB95300C240FF /* PhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85B7E7C289AB95300C240FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F85B7E7E289AB95300C240FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F85B7E80289AB95300C240FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F85B7E83289AB95300C240FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F85B7E86289AB95300C240FF /* photoGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = photoGallery.xcdatamodel; sourceTree = "<group>"; };
 		F85B7E88289AB95400C240FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85B7E8B289AB95400C240FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F85B7E8D289AB95400C240FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A86DC2289D775A008A52CD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F8A86DC3289D775A008A52CD /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F8A86DC6289D7783008A52CD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F8A86DC7289D7783008A52CD /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		F8A86DCE289D7A01008A52CD /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		F8A86DCF289D7A01008A52CD /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		F8A86DD4289D7ACE008A52CD /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F835CA42289D857F004DFA4A /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
 		F85B7E70289AB95300C240FF = {
 			isa = PBXGroup;
 			children = (
@@ -59,15 +74,68 @@
 			isa = PBXGroup;
 			children = (
 				F85B7E7C289AB95300C240FF /* AppDelegate.swift */,
-				F85B7E7E289AB95300C240FF /* SceneDelegate.swift */,
-				F85B7E80289AB95300C240FF /* ViewController.swift */,
-				F85B7E82289AB95300C240FF /* Main.storyboard */,
-				F85B7E88289AB95400C240FF /* Assets.xcassets */,
-				F85B7E8A289AB95400C240FF /* LaunchScreen.storyboard */,
-				F85B7E8D289AB95400C240FF /* Info.plist */,
-				F85B7E85289AB95300C240FF /* photoGallery.xcdatamodeld */,
+				F8A86DD2289D7A66008A52CD /* Application */,
+				F8A86DCC289D7996008A52CD /* MainFlow */,
 			);
 			path = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		F8A86DCA289D7934008A52CD /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				F8A86DC2289D775A008A52CD /* MainViewController.swift */,
+				F8A86DC3289D775A008A52CD /* MainViewController.xib */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		F8A86DCB289D794F008A52CD /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				F8A86DC6289D7783008A52CD /* ProfileViewController.swift */,
+				F8A86DC7289D7783008A52CD /* ProfileViewController.xib */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		F8A86DCC289D7996008A52CD /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F835CA42289D857F004DFA4A /* NavigationBar */,
+				F8A86DD3289D7A9E008A52CD /* TabBar */,
+				F8A86DCD289D79E8008A52CD /* FavoriteModule */,
+				F8A86DCB289D794F008A52CD /* ProfileModule */,
+				F8A86DCA289D7934008A52CD /* MainModule */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		F8A86DCD289D79E8008A52CD /* FavoriteModule */ = {
+			isa = PBXGroup;
+			children = (
+				F8A86DCE289D7A01008A52CD /* FavoriteViewController.swift */,
+				F8A86DCF289D7A01008A52CD /* FavoriteViewController.xib */,
+			);
+			path = FavoriteModule;
+			sourceTree = "<group>";
+		};
+		F8A86DD2289D7A66008A52CD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F85B7E88289AB95400C240FF /* Assets.xcassets */,
+				F85B7E8D289AB95400C240FF /* Info.plist */,
+				F85B7E8A289AB95400C240FF /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F8A86DD3289D7A9E008A52CD /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F8A86DD4289D7ACE008A52CD /* TabBarModel.swift */,
+				F835CA40289D7DEE004DFA4A /* TabBarConfigurator.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +198,9 @@
 			files = (
 				F85B7E8C289AB95400C240FF /* LaunchScreen.storyboard in Resources */,
 				F85B7E89289AB95400C240FF /* Assets.xcassets in Resources */,
-				F85B7E84289AB95300C240FF /* Main.storyboard in Resources */,
+				F8A86DD1289D7A01008A52CD /* FavoriteViewController.xib in Resources */,
+				F8A86DC9289D7783008A52CD /* ProfileViewController.xib in Resources */,
+				F8A86DC5289D775A008A52CD /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85B7E81289AB95300C240FF /* ViewController.swift in Sources */,
 				F85B7E7D289AB95300C240FF /* AppDelegate.swift in Sources */,
-				F85B7E7F289AB95300C240FF /* SceneDelegate.swift in Sources */,
-				F85B7E87289AB95300C240FF /* photoGallery.xcdatamodeld in Sources */,
+				F8A86DC8289D7783008A52CD /* ProfileViewController.swift in Sources */,
+				F8A86DC4289D775A008A52CD /* MainViewController.swift in Sources */,
+				F8A86DD0289D7A01008A52CD /* FavoriteViewController.swift in Sources */,
+				F835CA41289D7DEE004DFA4A /* TabBarConfigurator.swift in Sources */,
+				F8A86DD5289D7ACE008A52CD /* TabBarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F85B7E82289AB95300C240FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F85B7E83289AB95300C240FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F85B7E8A289AB95400C240FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,10 +356,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = photoGallery/Info.plist;
+				INFOPLIST_FILE = photoGallery/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,10 +382,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = photoGallery/Info.plist;
+				INFOPLIST_FILE = photoGallery/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,19 +422,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F85B7E85289AB95300C240FF /* photoGallery.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F85B7E86289AB95300C240FF /* photoGallery.xcdatamodel */,
-			);
-			currentVersion = F85B7E86289AB95300C240FF /* photoGallery.xcdatamodel */;
-			path = photoGallery.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F85B7E71289AB95300C240FF /* Project object */;
 }
