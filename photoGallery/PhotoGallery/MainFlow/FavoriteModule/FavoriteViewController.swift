@@ -7,10 +7,10 @@
 
 import UIKit
 
-class FavoriteViewController: UIViewController {
+final class FavoriteViewController: UIViewController {
 
     // MARK: - Private Properties
-    private var rightBarButton = UIBarButtonItem(systemItem: .search)
+    private let searchButton = UIBarButtonItem(systemItem: .search)
 
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -29,16 +29,20 @@ private extension FavoriteViewController {
 
     func configureNavigationBar() {
         navigationItem.title = TabBarModel.main.title
-        navigationItem.rightBarButtonItem = rightBarButton
+        navigationItem.rightBarButtonItem = searchButton
     }
 
     func setupRightBarButton() {
-        rightBarButton.target = self
-        rightBarButton.action = #selector(searchButtonDidTap)
-        navigationItem.rightBarButtonItem = rightBarButton
+        searchButton.tintColor = .black
+        searchButton.target = self
+        searchButton.action = #selector(searchButtonDidTap)
+        navigationItem.rightBarButtonItem = searchButton
     }
+}
 
+private extension FavoriteViewController {
+    // MARK: - Actions
     @objc func searchButtonDidTap() {
-//        navigationController?.pushViewController(FavoriteViewController(), animated: true)
+        navigationController?.pushViewController(SearchViewController(), animated: true)
     }
 }
